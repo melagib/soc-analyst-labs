@@ -1,0 +1,15 @@
+SYNTHETIC LOGIN INVESTIGATION
+Events: 16
+Failures: 11
+Successes: 5
+Failure threshold: 5 (counts across the whole file)
+
+Failure counts by source IP:
+  198.51.100.25: 5 failures; users=amina,leila,omar [REVIEW]
+  203.0.113.50: 5 failures; users=admin [REVIEW]
+  192.0.2.20: 1 failures; users=omar
+
+Success after repeated failures for the same IP and user:
+  2026-09-01T09:04:00Z | 203.0.113.50 | admin | 5 prior failures
+
+Review flags are leads, not proof of an attack or compromise.
