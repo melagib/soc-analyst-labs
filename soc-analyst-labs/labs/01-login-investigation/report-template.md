@@ -16,16 +16,16 @@
 ## Observations and timeline
 
 | UTC timestamp or range | Source IP | Account(s) | Observed events | Interpretation / uncertainty |
-| 09:01:00–09:01:30| 203.0.113.50 | admin| Five failed login attempts followed by a successful attempt | Suspicious activity, must be reviewed. Breach uncomfired|
-| ] | | | | |
+| 2026-09-01T09:04:00Z| 203.0.113.50 | admin| Five failed login attempts followed by a successful attempt | Suspicious activity, must be reviewed. Breach uncomfired|
+
 
 ## Assessment
 
-[My assessment is complete, the organization employees should clarify the login attempts, and work together to eliminate threats. If more evidence showed that the login attempts are signs of compromise, then we should take defensive measures .]
+[My assessment is complete, the failed login attempts could be an error done by the account user, however it is a red flag. If more evidence showed that the login attempts are signs of compromise, then we should take defensive measures .]
 
 ## Recommended follow-up
 
-[I would request the details of the activity that was done after the succesful login attempt.]
+[I would verify if the account owner tried to login during the time of the failed login attempts, check MFA records, and the activity that was made after the success login.]
 
 ## Tool limitations and lessons
 
@@ -33,4 +33,17 @@
 
 ## Completion evidence
 
-[Paste a short excerpt of your actual output or link an optional screenshot. State clearly if you completed only the manual exercise.]
+[Events: 16
+Failures: 11
+Successes: 5
+Failure threshold: 5 (counts across the whole file)
+
+Failure counts by source IP:
+  198.51.100.25: 5 failures; users=amina,leila,omar [REVIEW]
+  203.0.113.50: 5 failures; users=admin [REVIEW]
+  192.0.2.20: 1 failures; users=omar
+
+Success after repeated failures for the same IP and user:
+  2026-09-01T09:04:00Z | 203.0.113.50 | admin | 5 prior failures
+
+Review flags are leads, not proof of an attack or compromise.]
