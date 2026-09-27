@@ -7,7 +7,7 @@
 
 ## Summary
 
-[In 2–4 sentences, explain what you examined, what stood out, and what remains uncertain.]
+[I observed a total of sixteen login attempts, in which 11 resulted in failure. The account 'admiin' made 5 failed attempts, which is a perceived suspicious activity. ]
 
 ## Method
 
@@ -16,7 +16,7 @@
 ## Observations and timeline
 
 | UTC timestamp or range | Source IP | Account(s) | Observed events | Interpretation / uncertainty |
-| --- | --- | --- | --- | --- |
+| 09:01:00–09:01:30| --- | --- | --- | --- |
 | [Fill in] | | | | |
 
 ## Assessment
