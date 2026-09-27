@@ -16,7 +16,7 @@
 ## Observations and timeline
 
 | UTC timestamp or range | Source IP | Account(s) | Observed events | Interpretation / uncertainty |
-| 09:01:00–09:01:30| --- | --- | --- | --- |
+| 09:01:00–09:01:30| 203.0.113.50 | admin| Five failed login attempts followed by a successful attempt | Suspicious activity, must be reviewed. Breach uncomfired|
 | [Fill in] | | | | |
 
 ## Assessment
