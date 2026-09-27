@@ -1,8 +1,8 @@
 # Login investigation report
 
-**Status:** Not completed — replace the prompts with your own findings.  
-**Analyst:** [Your name]  
-**Date performed:** [Actual date]  
+**Status:**  completed — replace the prompts with your own findings.  
+**Analyst:** [Mohamed Ibrahim]  
+**Date performed:** [9/27/2026]  
 **Evidence:** Synthetic `sample_logins.csv` from this lab.
 
 ## Summary
