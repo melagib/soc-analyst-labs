@@ -7,7 +7,7 @@
 
 ## Summary
 
-[I observed a total of sixteen login attempts, in which 11 resulted in failure. The account 'admiin' made 5 failed attempts, which is a perceived suspicious activity. ]
+[I observed a total of sixteen login attempts, in which 11 resulted in failure. The account 'admin' made 5 failed attempts, which is a perceived suspicious activity. ]
 
 ## Method
 
